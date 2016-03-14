@@ -1343,7 +1343,7 @@ textarea.form-control {
   margin-top: -5px; }
 
 .navbar-transparent .navbar-brand, [class*="navbar-ct"] .navbar-brand {
-  color: #FFFFFF;
+  color: #444;
   opacity: 0.9;
   filter: alpha(opacity=90); }
   .navbar-transparent .navbar-brand:focus, .navbar-transparent .navbar-brand:hover, [class*="navbar-ct"] .navbar-brand:focus, [class*="navbar-ct"] .navbar-brand:hover {
@@ -2553,11 +2553,11 @@ textarea.form-control {
  * http://www.apache.org/licenses/LICENSE-2.0
  *
  */
-/*  
+/*
  *
  *   SCSS by Creative Tim
  *   http://www.creative-tim.com
- *   
+ *
  */
 .datepicker {
   top: 0;
