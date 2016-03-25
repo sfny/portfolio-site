@@ -18,6 +18,7 @@
   }
 
 .profile-background {
+  background-color: #FFFFFF;
   background-image: url('../imgs/beach.jpg');
   background-position: center center;
   background-size: cover;
