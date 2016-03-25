@@ -17,14 +17,19 @@
     color: #7AE8D5;
   }
 
+.body {
+    background-color: #FFFFFF;
+}
+
 .profile-background {
   background-color: #FFFFFF;
-  background-image: url('../imgs/beach.jpg');
+  background-image: url('../imgs/beach1.jpg');
   background-position: center center;
   background-size: cover;
   height: 300px;
   position: relative;
-  margin-top: -110px; }
+  margin-top: -110px;
+}
 
   .profile-background .filter-black::after {
     background-color: rgba(0, 0, 0, 0.5);
