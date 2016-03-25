@@ -22,24 +22,13 @@
 }
 
 .profile-background {
-  background-color: #FFFFFF;
+  background-image: url('../imgs/beach1.jpg');
   background-position: center center;
   background-size: cover;
   height: 300px;
   position: relative;
   margin-top: -110px;
 }
-
-  .profile-background .filter-black::after {
-    background-color: rgba(0, 0, 0, 0.5);
-    content: "";
-    display: block;
-    height: 300px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: 1; }
 
   .owner .avatar {
     margin-top: -100px;
