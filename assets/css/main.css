@@ -5,6 +5,9 @@
     opacity: 1;
 }
 
+.teal-text {
+  color: #7AE8D5;
+}
 
 .navbar-relative {
   position: relative;
