@@ -33,6 +33,49 @@
   margin-top: -110px;
 }
 
+.springr-background {
+  background-image:url('../imgs/halfdome.jpg');
+  background-position: center center;
+  background-size: cover;
+  height: 50em;
+  position: relative;
+  margin-top: -110px;
+}
+
+.fill-bg {
+  background-image:url('../imgs/arctic.jpg');
+  background-position: center center;
+  background-size: cover;
+  height: 30em;
+  color: white;
+}
+
+.bg-con1 {
+  background-size: cover;
+  padding-bottom: 2em;
+  
+  /* fallback */
+  background-color: ghostwhite;
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(ghostwhite), to(white));
+
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(top, white, ghostwhite);
+
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(top, white, ghostwhite);
+
+  /* IE 10 */
+  background: -ms-linear-gradient(top, white, ghostwhite);
+
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(top, white, ghostwhite);
+}
+
+.bg-con2 {
+  padding-bottom: 2em;
+}
+
   .owner .avatar {
     margin-top: -100px;
     position: relative;
@@ -101,4 +144,23 @@
 
 .footer {
   height: 2em;
+}
+
+.h1, h1 {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 400;
+  font-size: 72px;
+  color: darkslategrey;
+}
+
+p {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Merriweather', serif;  font-weight: 400;
+  font-size: 18px;
+}
+
+.bumpdown {
+  margin-top: 5em;
 }
