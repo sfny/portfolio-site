@@ -2168,23 +2168,23 @@ textarea.form-control {
     display: block;
     top: 0;
     height: 100%;
-    width: 230px;
+    width: 88px;
     right: 0;
     z-index: 1032;
     visibility: visible;
     background-color: #999;
     overflow-y: visible;
     border-top: none;
-    text-align: left;
+    text-align: center;
     border-left: 1px solid #CCC5B9;
     padding-right: 0px;
-    padding-left: 40px;
+    padding-left: 20px;
     padding-top: 15px;
-    -webkit-transform: translate3d(230px, 0, 0);
-    -moz-transform: translate3d(230px, 0, 0);
-    -o-transform: translate3d(230px, 0, 0);
-    -ms-transform: translate3d(230px, 0, 0);
-    transform: translate3d(230px, 0, 0);
+    -webkit-transform: translate3d(88px, 0, 0);
+    -moz-transform: translate3d(88px, 0, 0);
+    -o-transform: translate3d(88px, 0, 0);
+    -ms-transform: translate3d(88px, 0, 0);
+    transform: translate3d(88px, 0, 0);
     -webkit-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
     -moz-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
     -o-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
@@ -2213,7 +2213,7 @@ textarea.form-control {
       height: 100%;
       width: 100%;
       position: absolute;
-      background-color: #FFFCF5;
+      background-color: #FFFFFF;
       background-image: linear-gradient(to bottom, transparent 0%, rgba(112, 112, 112, 0) 60%, rgba(186, 186, 186, 0.15) 100%);
       display: block;
       content: "";
@@ -2237,15 +2237,15 @@ textarea.form-control {
     transform: translate3d(0px, 0, 0); }
 
   .nav-open .navbar .container {
-    left: -230px; }
+    left: -88px; }
 
   .nav-open .wrapper {
     left: 0;
-    -webkit-transform: translate3d(-230px, 0, 0);
-    -moz-transform: translate3d(-230px, 0, 0);
-    -o-transform: translate3d(-230px, 0, 0);
-    -ms-transform: translate3d(-230px, 0, 0);
-    transform: translate3d(-230px, 0, 0); }
+    -webkit-transform: translate3d(-88px, 0, 0);
+    -moz-transform: translate3d(-88px, 0, 0);
+    -o-transform: translate3d(-88px, 0, 0);
+    -ms-transform: translate3d(-88px, 0, 0);
+    transform: translate3d(-88px, 0, 0); }
 
   .navbar-toggle .icon-bar {
     display: block;

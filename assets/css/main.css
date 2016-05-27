@@ -11,7 +11,7 @@
 
 .navbar-relative {
   position: relative;
-  z-index: 2; }
+  z-index: 1; }
 
 #register-navbar a {
   color: #F7F7F7; }
@@ -43,34 +43,11 @@
 }
 
 .fill-bg {
-  background-image:url('../imgs/arctic.jpg');
-  background-position: center center;
-  background-size: cover;
-  height: 30em;
+  background-color: black;
   color: white;
 }
 
-.bg-con1 {
-  background-size: cover;
-  padding-bottom: 2em;
-  
-  /* fallback */
-  background-color: ghostwhite;
-  /* Safari 4-5, Chrome 1-9 */
-  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(ghostwhite), to(white));
 
-  /* Safari 5.1, Chrome 10+ */
-  background: -webkit-linear-gradient(top, white, ghostwhite);
-
-  /* Firefox 3.6+ */
-  background: -moz-linear-gradient(top, white, ghostwhite);
-
-  /* IE 10 */
-  background: -ms-linear-gradient(top, white, ghostwhite);
-
-  /* Opera 11.10+ */
-  background: -o-linear-gradient(top, white, ghostwhite);
-}
 
 .bg-con2 {
   padding-bottom: 2em;
@@ -147,20 +124,43 @@
 }
 
 .h1, h1 {
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-weight: 400;
-  font-size: 72px;
-  color: darkslategrey;
+  color: white;
+  font-size: 5em;
 }
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, .brand, a, .td-name, td {
+  font-family: "myriad-pro",sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.title {
+  margin-bottom: 16em;
+  color: white;
+}
+
+
 
 p {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: 'Merriweather', serif;  font-weight: 400;
-  font-size: 18px;
+
 }
 
 .bumpdown {
   margin-top: 5em;
+}
+.bumpdown2 {
+  margin-top: 8em;
+}
+.overlayed {
+  margin-top: -5em;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+  display: flex;
+  align-items: center;
 }
